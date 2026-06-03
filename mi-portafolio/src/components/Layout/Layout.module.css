@@ -1,0 +1,9 @@
+.pageShell {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(3, 7, 20, 0.86) 0%, rgba(5, 9, 22, 0.96) 58%, #030714 100%);
+}
+
+.main {
+  position: relative;
+  z-index: 1;
+}

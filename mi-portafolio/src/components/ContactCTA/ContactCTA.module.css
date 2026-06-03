@@ -1,0 +1,115 @@
+.cta {
+  padding: clamp(1rem, 3vw, 1.75rem) 0 clamp(3rem, 7vw, 5rem);
+}
+
+.panel {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(170px, 0.34fr);
+  gap: clamp(1.25rem, 3vw, 2.5rem);
+  align-items: center;
+  height: 100%;
+  padding: clamp(1.5rem, 3.2vw, 2.5rem);
+  border-radius: calc(var(--radius) + 8px);
+  background: linear-gradient(135deg, rgba(156, 95, 232, 0.15), rgba(255, 122, 70, 0.12));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  backdrop-filter: blur(18px);
+}
+
+.panel::after {
+  content: '';
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  right: -110px;
+  bottom: -130px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 122, 70, 0.2), transparent 68%);
+  pointer-events: none;
+}
+
+.panel::before {
+  content: '';
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: -120px;
+  top: -120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(156, 95, 232, 0.24), transparent 68%);
+  pointer-events: none;
+}
+
+.panel > * {
+  position: relative;
+  z-index: 1;
+}
+
+.subtitle {
+  margin-bottom: 0.75rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.panel h2 {
+  color: var(--text-h);
+  margin-bottom: 1rem;
+  font-size: clamp(1.8rem, 3.2vw, 2.85rem);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1.08;
+}
+
+.panel p {
+  color: var(--text);
+  line-height: 1.8;
+  max-width: 680px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  justify-items: stretch;
+}
+
+.buttons a {
+  width: 100%;
+  min-height: 44px;
+}
+
+.buttons :global(.btn-outline-light) {
+  background: rgba(255, 255, 255, 0.045);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+.buttons :global(.btn-primary) {
+  background: linear-gradient(135deg, #9c5fe8, #ff7a46);
+  border-color: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1040px) {
+  .panel {
+    grid-template-columns: 1fr;
+  }
+
+  .buttons {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .buttons a {
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .buttons {
+    grid-template-columns: 1fr;
+  }
+}

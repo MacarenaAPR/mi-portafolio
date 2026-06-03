@@ -1,0 +1,116 @@
+.projects {
+  padding: clamp(2rem, 6vw, 4.5rem) 0;
+}
+
+.headline {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.headline h2 {
+  color: var(--text-h);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.headline p {
+  color: var(--text);
+  max-width: 650px;
+  margin: 0.7rem auto 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.projectCard {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.26);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  min-height: 100%;
+}
+
+.projectCard:hover {
+  transform: translateY(-6px);
+  border-color: rgba(255, 122, 70, 0.34);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+}
+
+.imageWrapper {
+  height: 210px;
+  overflow: hidden;
+  background: radial-gradient(circle at 25% 20%, rgba(255, 122, 70, 0.2), transparent 32%),
+    radial-gradient(circle at 80% 70%, rgba(143, 92, 255, 0.25), transparent 38%),
+    rgba(255, 255, 255, 0.035);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  padding: 1.4rem;
+  opacity: 0.94;
+}
+
+.content {
+  padding: 1.45rem;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 1.2rem;
+}
+
+.category {
+  color: var(--accent);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.content h3 {
+  margin: 0.55rem 0 0.7rem;
+  color: var(--text-h);
+  font-size: 1.35rem;
+  font-weight: 850;
+}
+
+.content p {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.75;
+}
+
+.content :global(.btn) {
+  width: fit-content;
+  min-height: 40px;
+  padding-inline: 1rem;
+}
+
+@media (max-width: 1080px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .imageWrapper {
+    height: 190px;
+  }
+
+  .content :global(.btn) {
+    width: 100%;
+  }
+}

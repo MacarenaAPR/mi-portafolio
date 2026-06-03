@@ -1,0 +1,22 @@
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #5b4bff, #ff7a46);
+  border: none;
+}
+
+.btn-outline-light {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.btn-outline-light:hover,
+.btn-primary:hover {
+  opacity: 0.95;
+}
