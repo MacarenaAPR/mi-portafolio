@@ -1,4 +1,10 @@
 import placeholder from '../assets/images/project-placeholder.svg'
+import logoMenly from '../assets/images/project-logoMenly.png'
+import logoGenesis from '../assets/images/project-logoGenesis.png'
+import logoVitacare from '../assets/images/project-logoVitacare.png'
+import logoSimtexx from '../assets/images/project-logoSimtexx.png'
+import logoredisenoLMR from '../assets/images/project-RedisenoLMR.png'
+import logoKinesiologia from '../assets/images/project-logoKinesiologia.png'
 
 const projects = [
   {
@@ -50,7 +56,7 @@ const projects = [
     'Separación entre frontend y backend'
     ],
 
-    image: placeholder,
+    image: logoMenly,
 
     demoUrl: 'https://demo-menly.menly.cl',
 
@@ -103,7 +109,7 @@ const projects = [
     'Desarrollo de interfaces responsive'
     ],
 
-    image: placeholder,
+    image: logoGenesis,
 
     demoUrl: 'https://genesispsicologia.vercel.app/',
 
@@ -154,7 +160,7 @@ const projects = [
         'Planificación de MVP'
         ],
 
-        image: placeholder,
+        image: logoVitacare,
 
         demoUrl: '',
 
@@ -203,7 +209,7 @@ const projects = [
     'Integración frontend y backend'
     ],
 
-    image: placeholder,
+    image: logoSimtexx,
 
     demoUrl: '',
 
@@ -255,7 +261,7 @@ const projects = [
         'Estructuración de contenido para captación de clientes'
         ],
 
-        image: placeholder,
+        image: logoKinesiologia,
 
         demoUrl: 'https://landing-page-kinesiologia.vercel.app/',
 
@@ -308,7 +314,7 @@ learnings: [
 'Presentación efectiva de contenido comercial'
 ],
 
-image: placeholder,
+image: logoredisenoLMR,
 
 demoUrl: 'https://rediseno-la-mechada-real.vercel.app/',
 
