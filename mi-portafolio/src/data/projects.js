@@ -1,10 +1,10 @@
 import placeholder from '../assets/images/project-placeholder.svg'
 import logoMenly from '../assets/images/project-logoMenly.png'
-import logoGenesis from '../assets/images/project-logoGenesis.png'
-import logoVitacare from '../assets/images/project-logoVitacare.png'
-import logoSimtexx from '../assets/images/project-logoSimtexx.png'
-import logoredisenoLMR from '../assets/images/project-RedisenoLMR.png'
-import logoKinesiologia from '../assets/images/project-logoKinesiologia.png'
+import logoGenesis from '../assets/images/project-logogenesis.png'
+import logoVitacare from '../assets/images/project-logovitacare.png'
+import logoSimtexx from '../assets/images/project-logosimtexx.png'
+import logoredisenoLMR from '../assets/images/project-redisenoLMR.png'
+import logoKinesiologia from '../assets/images/project-logokinesiologia.png'
 
 const projects = [
   {
