@@ -1,8 +1,8 @@
 import AppRouter from './router/AppRouter'
-import { Analytics } from "@vercel/analytics/next"
+
 
 function App() {
-  return <AppRouter />, <Analytics />
+  return <AppRouter />
 }
 
 export default App
