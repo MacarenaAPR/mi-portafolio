@@ -162,9 +162,9 @@ const projects = [
 
         image: logoVitacare,
 
-        demoUrl: '',
+        demoUrl: '#',
 
-        githubUrl: '',
+        githubUrl: '#',
         }
             ,
     
@@ -211,7 +211,7 @@ const projects = [
 
     image: logoSimtexx,
 
-    demoUrl: '',
+    demoUrl: '#',
 
     githubUrl: 'https://github.com/MacarenaAPR/Simtexx',
     }
