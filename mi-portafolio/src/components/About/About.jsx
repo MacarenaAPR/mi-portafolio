@@ -18,7 +18,7 @@ const About = () => (
             No solo escribo código.
           </span>
           <p>
-            Me interesa entender a las personas que utilizaran los productos, diseñar experiencias intuitivas y desarrollarsolocuoines funcionales que generen valor.
+            Me interesa entender a las personas que utilizaran los productos, diseñar experiencias intuitivas y desarrollar soluciones funcionales que generen valor.
           </p>
           <p>
             Actualmente combino formacion en Ingeniería en Informática con estudios en UX/UI, trabajando en proyectos reales orientados a salud, restaurantes y sistemas de gestión.
