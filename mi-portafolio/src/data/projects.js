@@ -58,7 +58,7 @@ const projects = [
 
     image: logoMenly,
 
-    demoUrl: 'https://demo-menly.menly.cl',
+    demoUrl: 'https://menly.cl',
 
     githubUrl: 'https://github.com/MacarenaAPR/AppWeb-Menly',
     }
