@@ -267,59 +267,7 @@ const projects = [
 
         githubUrl: 'https://github.com/MacarenaAPR/Landing-Page-kinesiologia',
         }
-        ,
-        {
-id: '5',
-slug: 'la-mechada-real',
-title: 'Rediseño La Mechada Real',
-
-shortDescription:
-'Propuesta de rediseño web para un restaurante, enfocada en mejorar la experiencia de usuario, la presencia digital y la conversión de clientes.',
-
-problem:
-'El sitio existente no destacaba adecuadamente los productos, promociones y canales de contacto, dificultando la experiencia de navegación y la captación de clientes.',
-
-solution:
-'Diseñé y desarrollé una propuesta de rediseño moderna orientada a dispositivos móviles, incorporando una mejor jerarquía visual, acceso rápido a la carta, integración con WhatsApp y presentación clara de la información del negocio.',
-
-role:
-'UX/UI Designer y Frontend Developer',
-
-stack: [
-'HTML5',
-'CSS3',
-'JavaScript',
-'Bootstrap',
-'Git',
-'GitHub',
-'Netlify',
-'Figma'
-],
-
-features: [
-'Rediseño de experiencia de usuario',
-'Carta digital interactiva',
-'Integración con WhatsApp',
-'Mapa de ubicación',
-'Diseño responsive',
-'Sección de promociones y productos destacados'
-],
-
-learnings: [
-'Rediseño de interfaces existentes',
-'Diseño centrado en conversión',
-'Jerarquía visual para negocios gastronómicos',
-'Diseño responsive mobile-first',
-'Optimización de experiencia para clientes',
-'Presentación efectiva de contenido comercial'
-],
-
-image: logoredisenoLMR,
-
-demoUrl: 'https://rediseno-la-mechada-real.vercel.app/',
-
-githubUrl: 'https://github.com/MacarenaAPR/Rediseno-La-Mechada-Real',
-}
+        
 
 
   
