@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import heroImage from '../../assets/images/mi-foto.jpeg'
+import heroImage from '../../assets/images/mi-foto.png'
 import styles from './Hero.module.css'
 import { GrSend } from "react-icons/gr";
 import { MdOutlineLocationOn } from "react-icons/md";
